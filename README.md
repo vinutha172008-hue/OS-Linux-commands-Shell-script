@@ -356,26 +356,39 @@ seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
 
+<img width="387" height="130" alt="Screenshot 2026-07-29 003727" src="https://github.com/user-attachments/assets/dcee1780-3101-4e3c-8527-242c4fc2e29d" />
+
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
 
+<img width="382" height="152" alt="Screenshot 2026-07-29 003735" src="https://github.com/user-attachments/assets/5be860d6-e10c-48c3-8909-a3d73e83033d" />
+
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+<img width="437" height="151" alt="Screenshot 2026-07-29 003743" src="https://github.com/user-attachments/assets/9ddd00ad-7024-4fd1-8648-cd9b228d47fe" />
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+
+<img width="422" height="138" alt="Screenshot 2026-07-29 003753" src="https://github.com/user-attachments/assets/d6526cc4-043e-484c-9cd4-89af27862752" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
 
+<img width="395" height="165" alt="Screenshot 2026-07-29 003802" src="https://github.com/user-attachments/assets/c8ad4e8b-b109-4f8d-8c3a-f5264d8a42d6" />
+
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+
+<img width="367" height="137" alt="Screenshot 2026-07-29 003926" src="https://github.com/user-attachments/assets/bd272576-76c8-4c0f-a621-99c57d9a91ed" />
 
 
 #Sorting File content
